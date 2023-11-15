@@ -80,7 +80,9 @@ main {
     background-color: #B4B4B4;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
     align-items: center;
     padding: 100px 0px 100px 0px;
 }
@@ -91,12 +93,19 @@ main {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: auto;
     border-radius: 20px;
+    margin: auto 0;
+    
 }
 
-#reserva {background-image: url(../imagens/imagem-e-sombra-reserva.png);}
-#delivery {background-image: url(../imagens/imagem-e-sombra-delivery.png);}
+#reserva {
+    background-image: url(../imagens/imagem-e-sombra-reserva.png);
+
+}
+#delivery {
+    background-image: url(../imagens/imagem-e-sombra-delivery.png);
+
+}
 
 
 .conteudo {

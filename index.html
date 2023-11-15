@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="./src/css/estilo.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/estilo-header.css">
+    <link rel="stylesheet" href="./src/css/estilo-main-opcoes.css">
+    <link rel="stylesheet" href="./src/css/estilo-main-cardapio.css">
+    <link rel="stylesheet" href="./src/css/estilo-main-unidades.css">
+    <link rel="stylesheet" href="./src/css/estilo-footer.css">
+    
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,39 +72,46 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <h3>Confira nosso</h3>
-                <h1>Cardápio</h1>
-                <p>Explore o nosso cardápio repleto de autenticidade e sabor. Descubra uma variedade incrível de pratos típicos, bebidas refrescantes e sobremesas deliciosas</p>
-                <button><a href="">Confira Aqui</a></button>
-            </div>
+        <section id="cardapio">
+                <div class="conteudo-cardapio">
+                    <div>
+                        <h3>Confira nosso</h3>
+                        <h1>Cardápio</h1>
+                        <p>Explore o nosso cardápio repleto de autenticidade e sabor. Descubra uma variedade incrível de pratos típicos, bebidas refrescantes e sobremesas deliciosas</p>
+                    </div>
+                    <div>
+                        <button id="botao-cardapio"><a href="">Confira Aqui</a></button>
+                    </div>
+                </div>
+                
         </section>
 
-        <section>
-            <div>
-                <h3>Encontre</h3>
-                <h1>Unidades</h1>
-                <select name="unidades" id="">
-                    <option value="aguas-claras">Águas Claras</option>
-                    <option value="taguatinga">Taguatinga</option>
-                    <option value="samambaia">Samambaia</option>
-                    <option value="asa-sul">Asa sul</option>
-                </select>
-            </div>
-            <iframe src="https://img.freepik.com/fotos-gratis/grupo-de-amigos-de-meia-idade-se-divertindo-a-noite_23-2149237475.jpg?w=740&t=st=1699590891~exp=1699591491~hmac=3e6a76de45736b9a8b5e74a8c39ef4cef98c6fd975928a4efc2f8fd73b878a52" frameborder="0"></iframe>
+        <section id="unidades">
+                <div id="encontre-unidades">
+                    <div>
+                        <h3>Encontre</h3>
+                        <h1>Unidades</h1>
+                        <select name="unidades" id="">
+                            <option value="aguas-claras">Águas Claras</option>
+                            <option value="taguatinga">Taguatinga</option>
+                            <option value="samambaia">Samambaia</option>
+                            <option value="asa-sul">Asa sul</option>
+                        </select>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d909.3828431455007!2d139.7670824561596!3d35.68508596626923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c792e14634d%3A0x49fdd1132b0ddb34!2sNinja%20Tokyo!5e0!3m2!1spt-BR!2sbr!4v1700028047134!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     </main>
 
     <footer>
 
-            <section>
-                <div>
-                    <img src="" alt="">
+            <section id="infos" >
+                <div id="logo-footer" class="footer-infos">
+                    <img src="./src/imagens//logo.png" alt="">
                 </div>
 
-                <div>
+                <div id="contatos" class="footer-infos">
                     <h3>CONTATOS</h3>
                     <ul>
                         <li>(61) 99999-9999</li>
@@ -106,24 +119,24 @@
                     </ul>
                 </div>
 
-                <div>
+                <div id="horarios" class="footer-infos">
                     <h3>HORÁRIOS DE FUNCIONAMENTO</h3>
                     <p>Segunda a Sábado – 18h às 23h00</p>
                     <p>Domingo e feriados  – 18h às 22h00</p>
                 </div>
 
-                <div>
+                <div id="redes" class="footer-infos">
                     <h3>REDES SOCIAIS</h3>
                     <ul>
-                        <li><a href="https://www.instagram.com"></a>Insta<img src="" alt=""></li>
-                        <li><a href="https://web.whatsapp.com/"></a>Whats<img src="" alt=""></li>
-                        <li><a href="https://www.tiktok.com/pt-BR/"></a>Tik tok<img src="" alt=""></li>
-                        <li><a href="https://twitter.com/home"></a>Twitter<img src="" alt=""></li>
+                        <li><a href="https://www.instagram.com"><img src="./src/imagens/insta.png" alt=""></a></li>
+                        <li><a href="https://web.whatsapp.com/"><img src="./src/imagens/whats.png" alt=""></a></li>
+                        <li><a href="https://www.tiktok.com/pt-BR/"><img src="./src/imagens/tik.png" alt=""></a></li>
+                        <li><a href="https://twitter.com/home"><img src="./src/imagens/twitter.png" alt=""></a></li>
                     </ul>
                 </div>
             </section>
 
-            <section>
+            <section id="github">
                 <p>Confira informações sobre a criação do site e dos devs no github</p>
                 <a href="#">Github</a>
             </section>

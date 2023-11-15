@@ -1,0 +1,52 @@
+#cardapio {
+    background-image: url(../imagens/imagem-cardapio.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 80px 150px 80px 80px;
+}
+
+.conteudo-cardapio {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin: auto;
+}
+
+.conteudo-cardapio h3 {
+    color: var(--cor-vermelho);
+}
+
+.conteudo-cardapio h1 {
+    color: white;
+    font-size: 3.5em;
+}
+.conteudo-cardapio p {
+    color: white;
+    width: 550px;
+    font-size: 1.2rem;
+    margin: 13px 0px 0px 0px;
+}
+#delivery p {width: 200px;}
+
+
+.conteudo-cardapio a {
+    text-decoration: none;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+}
+#botao-cardapio{
+    border: none;
+    padding: 8px 25px;
+    border-radius: 11px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.336);
+    background-color: var(--cor-vermelho);
+    transform: scale(1.2);
+}
+
+#botao-cardapio:hover {
+    transform: scale(1.4);
+}

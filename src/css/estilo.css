@@ -12,7 +12,7 @@
   }
 
 body {
-    background-color: var(--cor-fundo);
+    background: linear-gradient(to left, #dacb88,#ad703b);
 }
 
 button {

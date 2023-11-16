@@ -38,11 +38,17 @@ nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+    cursor: pointer;
+    transition: 0.5s;
 }
 #login > img {
     width: 15%;
     height: 15%;
     padding: 5px;
+}
+
+#login:hover {
+    transform: scale(1.1);
 }
 
 div#imagem-sushi {

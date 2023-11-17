@@ -3,6 +3,8 @@ header {
     align-items: center;
     text-align: center;
     border-radius: 0px 0px 50px 50px;
+    padding: 8px;
+
 }
 header h1 {
     padding: 5px 0px 5px 0px;

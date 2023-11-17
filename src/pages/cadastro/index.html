@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="./src/css/estilo-cadastro.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -23,24 +29,24 @@
         <h1>
             Cadastro
         </h1>
-        <form action="../../../index.html" method="POST">
-            <div>
+        <form action="https://www.youtube.com.br" method="POST">
+            <section id="principal">
+
                 <div id="cadastro-geral">
-                    <label for="cadastro-nome">Nome completo:</label>
-                    <input type="text" name="nome" id="cadastro-nome">
+
+                    <input type="text" name="nome" class="inputs-cadastro" id="cadastro-nome" placeholder="Nome completo" required>
                     
-                    <label for="cadastro-email">Email:</label>
-                    <input type="email" name="email" id="cadastro-email">
+                    <input type="email" name="email" class="inputs-cadastro" id="cadastro-email" placeholder="Email" required>
                     
-                    <label for="cadastro-telefone">Telefone:</label>
-                    <input type="tel" name="telefone" id="cadastro-telefone">
+                    <input type="tel" name="telefone" class="inputs-cadastro" id="cadastro-telefone" placeholder="Telefone" required>
                     
-                    <label for="cadastro-senha">Senha:</label>
-                    <input type="password" name="senha" id="cadastro-senha">
+                    <input type="password" name="senha" class="inputs-cadastro" id="cadastro-senha" placeholder="Senha" required>
+
                 </div>
 
                 <p>Já tem uma conta? <a href="../login/index.html">Faça o login</a></p>
-            </div>
+
+            </section>
 
             <button type="submit">CADASTRAR</button>
         </form>
@@ -49,6 +55,7 @@
     <footer>
         <nav> 
             <a href="#">Política de privacidade</a>
+            <span>|</span>
             <a href="#">Termos de uso</a>
         </nav>
 

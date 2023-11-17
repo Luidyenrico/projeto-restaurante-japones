@@ -30,17 +30,15 @@
             Login
         </h1>
         <form action="../../../index.html" method="POST">
-            <div>
+            <section id="principal">
                 <div id="cadastro-geral">      
-                    <label for="login-email">Email:</label>
-                    <input type="email" name="email" id="login-email">
+                    <input type="email" name="email" id="login-email" class="inputs-login" placeholder="Email" required>
                     
-                    <label for="login-senha">Senha:</label>
-                    <input type="password" name="senha" id="login-senha">
+                    <input type="password" name="senha" id="login-senha" class="inputs-login" placeholder="Senha" required>
                 </div>
 
                 <p>Não tem conta? <a href="../cadastro/index.html">Faça o cadastro</a></p>
-            </div>
+            </section>
 
             <button type="submit">ENTRAR</button>
         </form>

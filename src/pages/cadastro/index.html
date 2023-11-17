@@ -30,26 +30,17 @@
             Cadastro
         </h1>
 
-        <form action="https://www.youtube.com.br" method="POST">
+        <form id="cadastroForm">
             <section id="principal">
-
                 <div id="cadastro-geral">
-
                     <input type="text" name="nome" class="inputs-cadastro" id="cadastro-nome" placeholder="Nome completo" required>
-                    
                     <input type="email" name="email" class="inputs-cadastro" id="cadastro-email" placeholder="Email" required>
-                    
                     <input type="tel" name="telefone" class="inputs-cadastro" id="cadastro-telefone" placeholder="Telefone" required>
-                    
                     <input type="password" name="senha" class="inputs-cadastro" id="cadastro-senha" placeholder="Senha" required>
-
                 </div>
-
                 <p>Já tem uma conta? <a href="../login/index.html">Faça o login</a></p>
-
             </section>
-
-            <button type="submit">CADASTRAR</button>
+            <button type="button" onclick="salvarCadastro()">CADASTRAR</button>
         </form>
     </main>
 
@@ -64,8 +55,7 @@
             <!-- linha branca -->
         </div>
     </footer>
-</body>
 
-    
+<script src="/src/js/cadastro.js"></script>
 </body>
 </html>

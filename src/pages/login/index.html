@@ -29,7 +29,7 @@
         <h1>
             Login
         </h1>
-        <form action="../../../index.html" method="POST">
+        <form id="loginForm">
             <section id="principal">
                 <div id="cadastro-geral">      
                     <input type="email" name="email" id="login-email" class="inputs-login" placeholder="Email" required>
@@ -40,7 +40,7 @@
                 <p>Não tem conta? <a href="../cadastro/index.html">Faça o cadastro</a></p>
             </section>
 
-            <button type="submit">ENTRAR</button>
+            <button type="button" onclick="realizarLogin()">ENTRAR</button>
         </form>
     </main>
 
@@ -55,5 +55,6 @@
         </div>
     </footer>
 
+    <script src="/src/js/cadastro.js"></script>
 </body>
 </html>

@@ -16,6 +16,7 @@ function realizarLogin() {
     // Exibe uma mensagem de sucesso ou erro
     if (usuarioValido) {
         alert('Login bem-sucedido!');
+        window.location.href="../../../index.html"
     } else {
         alert('Email ou senha incorretos. Tente novamente.');
     }

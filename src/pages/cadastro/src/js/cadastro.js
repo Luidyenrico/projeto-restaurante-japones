@@ -9,10 +9,13 @@ function salvarCadastro() {
     // Adiciona os novos dados ao array
     dadosCadastrados.push(Object.fromEntries(formData));
 
+    if ()
+
     // Atualiza o localStorage com os novos dados
     localStorage.setItem('dadosCadastrados', JSON.stringify(dadosCadastrados));
 
     alert('Cadastro salvo com sucesso!');
+    window.location.href="../login/index.html";
 }
 
 function baixarDados() {

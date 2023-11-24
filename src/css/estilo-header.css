@@ -2,6 +2,16 @@ header {
     background-color: rgb(255, 227, 190);
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+
+header a:hover {
+    transform: scale(1.1);
+}
+
 nav {
     display: flex;
     flex-direction:row;

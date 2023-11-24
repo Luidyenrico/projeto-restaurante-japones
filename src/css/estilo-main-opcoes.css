@@ -55,15 +55,11 @@
 }
 #delivery p {width: 200px;}
 
-
-
-.conteudo a {
-    text-decoration: none;
-    font-size: 1.25em;
-    letter-spacing: 2px;
-    color: white;
-}
 .conteudo button {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.20em;
+    color: white;
     border: none;
     padding: 8px 25px;
     border-radius: 11px;
